@@ -1,0 +1,144 @@
+
+body{
+background-color: rgb(41, 41, 41);
+}
+.sector{
+    width: 475px;
+    height: 475px;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    overflow: hidden;
+}
+.one{
+    width: 700px;
+    height: 700px;
+    background-color: rgb(41, 41, 41);
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    animation-name: one;
+    animation-duration: 3s;
+ 
+    animation-iteration-count: infinite;
+}
+@keyframes one {
+ 79%{
+ background-color: rgb(41, 41, 41)
+ }
+ 80%{
+ background-color: rgb(41, 41, 41)
+ }
+ 100%{
+ background-color: #6c6d6e;
+}
+ 
+}
+.two{
+    width: 600px;
+    height: 600px;
+    background-color:rgb(44, 44, 44);
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+}
+.three{
+    width: 500px;
+    height: 500px;
+    background-color:rgb(41, 41, 41);
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    animation-name:three;
+    animation-duration: 3s;
+
+    animation-iteration-count: infinite;
+}
+@keyframes three {
+    59%{
+    background-color: rgb(41, 41, 41)
+    }
+    60%{
+    background-color:  rgb(41, 41, 41)
+    }
+    100%{
+    background-color: #626263;
+    }
+  
+}
+.four{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.five{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(41, 41, 41);
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    animation-name:five;
+    animation-duration: 3s;
+ 
+    animation-iteration-count: infinite;
+}
+@keyframes five {
+    39%{
+    background-color: rgb(41, 41, 41);
+    }
+    40%{
+    background-color: rgb(41, 41, 41);
+    
+    }
+    100%{
+    background-color: #4e4f52;
+    }
+    
+}
+.six{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.seven{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.bloom{
+    left: 200px;
+    position: absolute;
+    z-index: 15;
+    width: 0;
+	height: 0;
+	border-bottom: 1000px ;
+	border-right: 1000px solid transparent;	
+}
+.bloom1{
+    right: 175px;
+    position: absolute;
+    z-index: 15;
+    width: 0;
+	height: 0;
+	border-bottom: 1000px ;
+	border-left: 1000px solid transparent;
+}
